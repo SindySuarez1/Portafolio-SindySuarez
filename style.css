@@ -50,7 +50,7 @@ header {
     border-bottom: 1px solid var(--border-color);
 }
 #navbar{
-    //background-color: aqua;
+    /*background-color: aqua; */
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -354,9 +354,10 @@ footer {
     align-items: 1400px;
     margin: 0 auto;
 }
+
 @media (max-width: 430px) {
     header {
-        position: : static;
+        position: static;
     }
     #navbar {
         flex-direction: colum;
