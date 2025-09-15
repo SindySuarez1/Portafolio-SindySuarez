@@ -3,100 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portafolio Sindy Suarez</title>
     <link rel="stylesheet" href="style.css">
     <!-- iconos-->
     <script src="https://kit.fontawesome.com/abc23bde44.js" crossorigin="anonymous"></script> <!-- iconos-->
+    <script src="script.js"></script>
 </head>
 <body>
     <header>
         <nav id="navbar">
             <div class="logo">Sindy<span>Suarez</span></div>
             <ul class="nav-links">
-                <li><a href="#inicio">Inicio</a></li>
-                <li><a href="#experiencia">Experiencia</a></li>
+                <li><a href="#inicio">Sobre mí</a></li>
+                <li><a href="#habilidades">Habilidades</a></li>
                 <li><a href="#proyectos">Proyectos</a></li>
+                 <li><a href="#contacto">Contacto</a></li>
             </ul>
         </nav>
     </header> 
+
+    <div id="banner" class="banner">
+  <img src="banner.jpeg" alt="Banner de presentación" class="banner-img">
+  <div class="banner-content">
+    <h1>¡Mi Portafolio!</h1>
+  </div>
+</div>
 
     <main>
         <section id="inicio" class="hero">
             <div class="hero-content">
                 <div class="hero-text">
                     <h1>Sindy Suarez</h1>
+                    <h2>Desarrolladora Junior Full-Stack Java </h2>
                     <p>Apasionada por crear experiecia web única y funcionales. Siempre buscando
                         aprender nuevas técnologias y mejorar habilidades.</p>
                         <div class="social-link">
-                            <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
-                            <a href="#" target="_blank"><i class="fab fa-correo"></i></a>
+                            <a href="https://github.com/SindySuarez1" target="_blank"><i class="fab fa-github"></i></a>
+                            <a href="https://www.linkedin.com/in/sindy-suarez/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                            <a href="mailto:sitysb@gmail.com" target="_blank"><i class="fas fa-envelope"></i></a>
                         </div>
-                        <a href="#contacto" class="btn">Contáctame</a>
+                       <!-- <a href="#contacto" class="btn">Contáctame</a>--> 
                 </div>
                         <div class="hero-image">
-                            <img src="/sindy.png" alt="profile image">
+                            <img src="/sindy.png" alt="foto sindy suarez">
                         </div>
             </div>
         </section>
-        <section id ="experiencia" class="experiencia">
-            <h2 class="section-title"> Experiencia Laboral</h2>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="timeline-content">
-                    <span class="date">2015 - 2024</span>
-                    <h3>Gerente general</h3>
-                    <h4>Arcos Dorados Colombia S.A.S</h4>
-                    <P>Administrar procesos financieros, manejo de 120 personas, cumplimiento
-                        de objetivos, desarrollo de personal y capacitación</P>
-                    <ul class="skills">
-                        <li>Liderazgo</li>
-                        <li>Trabajo en equipo</li>
-                        <li>Solución de problema</li>
-                        <li>Desarrollo de personas</li>
-                    </ul>
-                </div>
-            </div>
-                <div class="timeline-item">
-                     <div class="timeline-content">
-                    <span class="date">2024</span>
-                    <h3>Gerente general</h3>
-                    <h4>Arcos Dorados Colombia S.A.S</h4>
-                    <P>Administrar procesos financieros, manejo de 120 personas, cumplimiento
-                        de objetivos, desarrollo de personal y capacitación</P>
-                    <ul class="skills">
-                        <li>Liderazgo</li>
-                        <li>Trabajo en equipo</li>
-                        <li>Solución de problema</li>
-                        <li>Desarrollo de personas</li>
-                    </ul>
-                </div>
-            </div>
-            </div>
+        <section id="habilidades" class="">
+            <h2 class="section-title"> Habilidades Técnicas</h2>
+            <ul class="skills">
+                <li>HTML5</li>
+                <li>CSS3</li>
+                <li>JavaScript (ES6+)</li>
+                <li>Git & GitHub</li>
+                <li>Consumo de APIs REST</li>
+                <li>NestJS (en formación)</li>
+                <li>Node.js</li>
+            </ul>
         </section>
 
-        <section id="proyectos" class="projects">
+
+        <section id="proyectos" class="">
             <h2 class="section-title">Proyectos Personales</h2>
             <div class="projects-container">
+
                 <div class="project-card">
                     <div class="project-img">
-                        <img src="proyecto1.avif" alt="proyecto1">
+                        <img src="pokemon.png" alt="proyecto pokemon">
                     </div>
                     <!-- primer proyecto-->
-                    <div class="project_info">
-                        <h3>Mi priemra apgina</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus, 
-                            aperiam alias eaque labore ab atque adipisci aliquid quisquam molestiae quia cupiditate temporibus,
-                            porro omnis. Veritatis quae repudiandae eligendi.
+                    <div class="project-info">
+                        <h3>Pokémon API</h3>
+                        <p>Aplicación que consume la PokéAPI para mostrar datos 
+                            de diferentes Pokémon
                         </p>
                         <div class="project-tech">
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
+                            <span>JavaScript</span>
+                            <span>API</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-link"></i>Demo</a>
-                            <a href="#" target="_blank"><i class="fab fa-github"></i>Codgio git</a>
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-link"></i> Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i>Código git</a>
                         </div>
                     </div>
                 </div>
@@ -105,22 +94,21 @@
 
                  <div class="project-card">
                     <div class="project-img">
-                        <img src="proyecto1.avif" alt="proyecto1">
+                        <img src="nasa.jpg" alt="proyecto2">
                     </div>
                     <div class="project-info">
-                        <h3>Mi segundo programa</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus, 
-                            aperiam alias eaque labore ab atque adipisci aliquid quisquam molestiae quia cupiditate temporibus,
-                            porro omnis. Veritatis quae repudiandae eligendi.
+                        <h3>NASA API</h3>
+                        <p>Explorador de imágenes espaciales a través de la API pública de la NASA.
                         </p>
                         <div class="project-tech">
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
+                           <span>JavaScript</span>
+                            <span>API</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-link"></i>Demo</a>
-                            <a href="#" target="_blank"><i class="fab fa-github"></i>Codgio git</a>
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-link"></i>Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i>Código git</a>
                         </div>
                     </div>
                 </div>
@@ -129,22 +117,21 @@
 
                  <div class="project-card">
                     <div class="project-img">
-                        <img src="proyecto1.avif" alt="proyecto1">
+                        <img src="tareas.png" alt="proyecto3">
                     </div>
-                    <div class="project_info">
-                        <h3>Mi tercer proyecto</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere sint voluptatibus, 
-                            aperiam alias eaque labore ab atque adipisci aliquid quisquam molestiae quia cupiditate temporibus,
-                            porro omnis. Veritatis quae repudiandae eligendi.
+                    <div class="project-info">
+                        <h3>Planificador de Tareas</h3>
+                        <p>Aplicación para organizar tareas pendientes y gestionar el tiempo.
                         </p>
                         <div class="project-tech">
-                            <span>Html</span>
-                            <span>Css</span>
-                            <span>Js</span>
+                            <span>JavaScript</span>
+                            <span>LocalStorage</span>
+                            <span>HTML</span>
+                            <span>CSS</span>
                         </div>
                         <div class="project-links">
-                            <a href="#" target="_blank"><i class="fas fa-link"></i>Demo</a>
-                            <a href="#" target="_blank"><i class="fab fa-github"></i>Codgio git</a>
+                            <a href="#" target="_blank" class="btn"><i class="fas fa-link"></i>Demo</a>
+                            <a href="#" target="_blank" class="btn"><i class="fab fa-github"></i>Código git</a>
                         </div>
                     </div>
                 </div>
@@ -152,12 +139,12 @@
         </section>
     </main>  
 
-    <footer>
+    <footer id="contacto">
         <div class="footer-content">
-            <p>&copy; 2025 Sindy Suarez - Todos los derechos reservados</p>
+            <p>&copy; 2025 Sindy Suarez - Portafolio Personal</p>
             <div class="social-link">
-                <a href="#" target="_blank"><i class="fab fa-github"></i></a>
-                <a href="#" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://github.com/SindySuarez1" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/sindy-suarez/" target="_blank"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </footer>
